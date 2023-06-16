@@ -1,0 +1,8 @@
+<%- include('../partials/header') %> <%- include('../partials/nav') %>
+<h1>List of Staff</h1>
+<ul>
+  <% staff.forEach((member) => {%>
+  <li><%= member.name %></li>
+  <% }); %>
+</ul>
+<%- include('../partials/footer') %>
