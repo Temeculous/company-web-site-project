@@ -1,6 +1,9 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-abstract-polygonal-space-background-with-connecting-dots-and-lines-hi-tech-image_435068.jpg");
+  background-size: cover;
 }
 
 a {
@@ -9,4 +12,104 @@ a {
 
 .nav-item {
   margin: 0 1vw;
+}
+
+#contact-text-area {
+  position: absolute;
+  bottom: 65px;
+  left: 35px;
+}
+
+#company-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+#company-history-content {
+  margin: 80px auto 0 auto;
+  width: 80vw;
+}
+
+#work-history {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-history-items {
+  margin: 10px 0 20px 0;
+  text-shadow: 3px 3px 10px rgb(43, 43, 43), 3px 3px 10px rgba(43, 43, 43);
+}
+
+.work-history-description {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-header {
+  text-decoration: underline;
+}
+
+#first-contact {
+  margin-top: 30px;
+}
+
+.contact-content {
+  margin: 10px 0 20px 0;
+}
+
+#staff {
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+  align-items: center;
+}
+
+#staff-list {
+  list-style-type: square;
+}
+
+.staff-name {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgb(226, 236, 117);
+}
+
+.staff-info {
+  margin: 3px 0 30px 0;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+#link-list {
+  list-style: none;
+  position: absolute;
+  bottom: 25vh;
+}
+
+.link-item {
+  margin: 5vh auto;
+  font-size: 24px;
+}
+
+.link-item-hyperlink {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #b8ebfd;
+  color: #b8ebfd;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.link-item-hyperlink:hover {
+  box-shadow: inset 120px 0 0 0 #b8ebfd;
+  color: rgb(33, 33, 33);
 }

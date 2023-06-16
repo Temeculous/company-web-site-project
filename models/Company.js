@@ -6,13 +6,13 @@ var staff = [
 ];
 
 var companyHistory = [
-  { project: "project1", details: "Explaining project1" },
-  { project: "project2", details: "Explaining project2" },
-  { project: "project3", details: "Explaining project3" },
+  { project: "project1", details: "This is a description of project1" },
+  { project: "project2", details: "This is a description of project2" },
+  { project: "project3", details: "This is a description of project3" },
 ];
 
 var links = [
-  { name: "GitHub", hyperlink: "https://github.com" },
+  { name: "GitHub", hyperlink: "https://www.github.com" },
   { name: "LinkedIn", hyperlink: "https://www.linkedin.com" },
   { name: "Twitter", hyperlink: "https://twitter.com" },
   { name: "Facebook", hyperlink: "https://www.facebook.com" },

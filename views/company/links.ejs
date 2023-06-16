@@ -1,7 +1,11 @@
 <%- include('../partials/header') %> <%- include('../partials/nav') %>
-<ul>
-  <% links.forEach((link) => { %>
-  <li><a href="<%= link.hyperlink %>" target="_blank"><%= link.name %></a></li>
-  <% }); %>
-</ul>
+<div id="links">
+  <ul id="link-list">
+    <% links.forEach((link) => { %>
+    <li class="link-item">
+      <a class="link-item-hyperlink" href="<%= link.hyperlink %>" target="_blank"><%= link.name %></a>
+    </li>
+    <% }); %>
+  </ul>
+</div>
 <%- include('../partials/footer') %>

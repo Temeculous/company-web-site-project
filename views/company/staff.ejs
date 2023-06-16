@@ -1,13 +1,15 @@
 <%- include('../partials/header') %> <%- include('../partials/nav') %>
+<div id="staff">
 <h1>List of Staff</h1>
-<ul>
+<ul id="staff-list">
   <% staff.forEach((member) => {%>
-  <li><%= member.name %></li>
-  <p>
+  <li class="staff-name"><%= member.name %></li>
+  <p class="staff-info">
     Job: <%= member.job %> 
   </br>
     Age: <%= member.age %>
   </p>
   <% }); %>
 </ul>
+</div>
 <%- include('../partials/footer') %>
