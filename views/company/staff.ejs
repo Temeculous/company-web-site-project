@@ -3,6 +3,11 @@
 <ul>
   <% staff.forEach((member) => {%>
   <li><%= member.name %></li>
+  <p>
+    Job: <%= member.job %> 
+  </br>
+    Age: <%= member.age %>
+  </p>
   <% }); %>
 </ul>
 <%- include('../partials/footer') %>

@@ -1,4 +1,9 @@
-<%- include('../partials/header') %>
-<%- include('../partials/nav') %>
+<%- include('../partials/header') %> <%- include('../partials/nav') %>
 <h1>Work History</h1>
+<ul>
+  <% projects.forEach((project) => { %>
+  <li><%= project.project %></li>
+  <p>-<%= project.details %></p>
+  <% }) %>
+</ul>
 <%- include('../partials/footer') %>

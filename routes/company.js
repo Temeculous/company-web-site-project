@@ -12,7 +12,9 @@ router.get("/work-history", companyCont.getWorkHistory);
 router.get("/staff", companyCont.getStaff);
 
 //GET /company/contact-us
+router.get("/contact-us", companyCont.showContactInfo);
 
 //GET /company/links
+router.get("/links", companyCont.getLinks);
 
 module.exports = router;
