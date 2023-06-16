@@ -2,6 +2,6 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/", function (req, res) {
-  res.render("index", { title: "Company Name" });
+  res.render("index", { title: "Mission Impossible" });
 });
 module.exports = router;
